@@ -29,5 +29,11 @@
   "scripts": {
     "install": "grunt clean build",
     "test": "grunt clean prepare test"
+  },
+  "jam": {
+    "main": "build/amd/chaplin.js",
+    "dependencies": {
+      "backbone": ">=1.0"
+    }
   }
 }
